@@ -1,0 +1,80 @@
+
+#maindiv{
+   width: 88%;
+   height: 100%;
+   margin: 7px auto;
+}
+
+.div1{
+   margin-top: 100px;
+   width: 350px;
+   height: 450px;
+   float: left;
+ 
+   box-shadow: 1px 1px 5px 0.5px rgb(184, 184, 185)
+}
+.div2{
+margin-top: 100px;
+float: right;
+width: 800px;
+height: 450px;
+box-shadow: 1px 1px 5px 0.5px rgb(184, 184, 185)
+}
+input ,textarea{
+   margin: 40px 10px;
+   margin-bottom: 0;
+   width: 220px;
+   height: 40px;
+   gap: 0px;
+   border-radius: 4px ;
+   opacity: 0px;
+   background-color: #F5F5F5;
+   border: none;
+
+}
+textarea{
+   margin-top: 20px;
+   width: 710px;
+   height: 250px;
+}
+.div1 .contact{
+   margin-left: 50px;
+}
+span{
+   font-size: 16px;
+   font-weight:bold;
+   line-height: 30px;
+   text-align: left;
+
+}
+img{
+   margin-top: 50px;
+}
+
+.mail{
+   margin-top: 0px !important;
+   border-top: 1px solid gray;
+}
+
+.container {
+   display: flex;
+   align-items: center; 
+   gap: 5px; 
+}
+
+
+.container span{
+   margin-top: 50px !important;
+} 
+button{
+   width: 180px;
+   height: 40px;
+   float:right; 
+   margin-right: 60px;
+   background-color: black;
+   color: rgba(240, 237, 237, 0.986);
+   margin-top: 20px;
+   border-radius: 4px;
+}
+
+

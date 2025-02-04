@@ -1,0 +1,137 @@
+#pages{
+    
+            text-align: left;
+            margin:80px;
+        }
+        .Overview{
+           float:left;
+          margin: 70px;
+        }
+        h1{
+            font-size: 54px;
+            font-weight: 600;
+            line-height: 64px;
+            letter-spacing: 0.06em;
+        }
+        .text{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+            text-align: left;
+        }
+        #sectiondiv{
+            width: 88%;
+            height: 100%;
+            margin: 7px auto;
+        }
+        .feature{
+            width: 270px;
+            height: 230px;
+            border-radius: 4px ;
+            border: 2px solid rgb(153, 149, 149);
+            display: inline-block;
+            margin-left: 15px;
+            margin-top: 100px;
+        }
+        .fa-dollar-sign{
+            width: 26.67px;
+            height: 33.33px;
+            top: 3.33px;
+            left: 6.67px;
+            gap: 0px;
+            opacity: 0px;
+        }
+        .feature:hover{
+            background-color:#DB4444;;
+        }
+        .feature:hover .cy1{
+            background-color: rgba(255, 255, 255, 0.3) !important;
+          
+         
+        }
+        .feature:hover .cy2{
+            background-color:#ffffff !important;
+            opacity: 1;
+          
+        }
+        .feature:hover i{
+            color: black !important;
+        }
+        .feature:hover p , .feature:hover h5{
+            color: white !important;
+        }
+        h5,p{
+            text-align: center
+        }
+        h5{
+            font-size:x-large;
+            margin-bottom: 0;
+            margin-top: 15px;
+        }
+        p{
+            margin-top: 15px;
+            font-weight: 800;
+            color:rgb(39, 39, 39)
+        }
+        .feature2:hover{
+            background-color: rgb(0, 0, 0);
+            width: 200px;
+            height: 200px;
+           border-radius: 50%;
+           text-align: center;
+           font-size: x-small;
+
+
+        }
+        .phcontainer{
+        display: inline-block;
+        margin: 50px;
+        }
+        .phcontainer img{
+            background-color: #F5F5F5; 
+        }
+        
+        span i{
+            margin-top: 15px;
+            color: rgb(49, 49, 49);
+        
+        }
+        h4{
+            
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.04em;
+            margin-bottom: 20px;
+        }
+        .container{
+             margin-top: 50px ;
+             margin-left: 100px
+        }
+        .cy1{
+            background-color: #9b989b ; 
+            width: 80px; 
+            height: 80px;
+            position: relative; 
+            border-radius: 50%;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+        }
+        .cy2{
+           background-color: rgb(0, 0, 0);
+           width: 58px; 
+           height: 58px; 
+           position: absolute; 
+           border-radius: 50%; 
+           display: flex; 
+           justify-content: center; 
+           align-items: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        .fa-store,.fa-shopify,.fa-dollar-sign,.fa-money-check-dollar{
+            color: white;
+            font-size: 30px;
+        }
